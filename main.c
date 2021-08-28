@@ -308,6 +308,7 @@ enum KeyStatus del(struct node *ptr, int key)
     else
         pivot = pos;
 
+
     lptr = p[pivot];
     rptr = p[pivot+1];
     /*merge right node with left node*/
